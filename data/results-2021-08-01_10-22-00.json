@@ -1,0 +1,92 @@
+{
+    "version": "1",
+    "metadata": {
+        "date": 1627806138
+    },
+    "machine": {
+        "cpu": {
+            "manufacturer": "Intel®",
+            "brand": "Core™ i7-3520M",
+            "vendor": "GenuineIntel",
+            "family": "6",
+            "model": "58",
+            "stepping": "9",
+            "revision": "",
+            "voltage": "",
+            "speed": 2.9,
+            "speedMin": 1.2,
+            "speedMax": 3.6,
+            "governor": "schedutil",
+            "cores": 4,
+            "physicalCores": 2,
+            "processors": 1,
+            "socket": "",
+            "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts md_clear flush_l1d",
+            "virtualization": true,
+            "cache": {
+                "l1d": 65536,
+                "l1i": 65536,
+                "l2": 524288,
+                "l3": 4
+            }
+        },
+        "os": {
+            "platform": "linux",
+            "distro": "Ubuntu",
+            "release": "21.04",
+            "codename": "Hirsute Hippo",
+            "kernel": "5.11.0-25-generic",
+            "arch": "x64",
+            "codepage": "UTF-8",
+            "logofile": "ubuntu",
+            "build": "",
+            "servicepack": "",
+            "uefi": true
+        },
+        "system": {
+            "manufacturer": "LENOVO",
+            "model": "IdeaPad Z580",
+            "version": "Lenovo Z580",
+            "sku": "-",
+            "virtual": false
+        },
+        "docker": {
+            "kernelVersion": "5.11.0-25-generic",
+            "operatingSystem": "Ubuntu 21.04",
+            "osVersion": "21.04",
+            "osType": "linux",
+            "architecture": "x86_64",
+            "ncpu": 4,
+            "memTotal": 6081159168,
+            "serverVersion": "20.10.2"
+        }
+    },
+    "results": [
+        {
+            "implementation": "PrimeC",
+            "solution": "3",
+            "label": "fvbakel_Cwords",
+            "passes": 14659,
+            "duration": 5.000309,
+            "threads": 1,
+            "tags": {
+                "algorithm": "other",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        },
+        {
+            "implementation": "c",
+            "solution": "50",
+            "label": "danielspaangberg_1of2",
+            "passes": 6493,
+            "duration": 5.000734,
+            "threads": 1,
+            "tags": {
+                "algorithm": "base",
+                "faithful": "yes",
+                "bits": "1"
+            }
+        }
+    ]
+}
